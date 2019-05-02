@@ -8,4 +8,5 @@
 ## Clearly any powershell script can be run this way so if you think of some other commands
 ## you can create the powershell script and run it with this code.
 
+## The referenced powershell script is in the same repository as this R script.
 system2("powershell", args=c("-file", "C:\\Documents\\text.to.phone.ps1"))
